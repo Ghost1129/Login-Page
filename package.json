@@ -6,9 +6,20 @@
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
+    "assert": "^2.0.0",
+    "browserify-zlib": "^0.2.0",
+    "buffer": "^6.0.3",
+    "crypto-browserify": "^3.12.0",
+    "jsonwebtoken": "^8.5.1",
+    "jwt-decode": "^3.1.2",
+    "process": "^0.11.10",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-router-dom": "^6.2.1",
     "react-scripts": "5.0.0",
+    "stream-browserify": "^3.0.0",
+    "tailwindcss": "^3.0.15",
+    "util": "^0.12.4",
     "web-vitals": "^2.1.3"
   },
   "scripts": {
@@ -34,5 +45,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "browser": {
+    "buffer": false,
+    "crypto": false,
+    "stream": false
   }
 }
